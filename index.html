@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number Game</title>
+    <link rel="stylesheet" href="style.css">
+
+     <!-- font text link -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <div class="container">
+        <button id="reset-btn">Reset</button>
+        <div class="instructions">< Enter Any Number Between 1-10 ></div>
+        <h1>Guess My Number..?</h1>
+
+        <div class="line"></div>
+        <div class="question">
+        <span id="question-mark">?</span>
+        </div>
+        
+       
+        <div class="enter">
+        <input type="number" id="user-input" placeholder="Enter your guess">
+        <button id="check-btn">CHECK</button>
+        <div class="result" id="result-message"></div> <!-- Feedback display -->
+        </div>
+
+
+        <div class="scorebox">
+        <span id="score">Score: 20</span>
+        </div>
+
+        <div class="highest-score">
+        <span id="highest-score">Highest Score: 20</span>
+        </div>
+        <div class="feedback-box" id="feedback-box"></div> <!-- Box for high/low feedback -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

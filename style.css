@@ -1,0 +1,104 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.instructions{
+    font-family: "Press Start 2P", system-ui;
+    color: fuchsia;
+    margin-left: 70%;
+}
+
+h1{
+    font-family: "Press Start 2P", system-ui;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 60px;
+    font-style: normal;
+}
+
+
+.question {
+    font-family: "Press Start 2P", system-ui;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    margin-left: 45%;
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    color: black;
+}
+.line{
+    margin-top: 40px;
+    border: 1px solid white;
+    width: 98%;
+    position: relative;
+    top: 90px
+}
+
+.enter{
+    display: inline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+input {
+    font-family: "Press Start 2P", system-ui;
+    margin: 10px;
+    padding: 10px;
+}
+
+.result {
+    margin-top: 16px;
+    font-size: 24px;
+    color: yellow; /* Color for the message */
+}
+
+button {
+    margin-left: 20px;
+    font-family: "Press Start 2P", system-ui;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.scorebox {
+    font-family: "Press Start 2P", system-ui;
+    margin-left: 68%;
+    margin-top: 50px;
+    width: 30%;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.highest-score {
+    font-family: "Press Start 2P", system-ui;
+    margin-left: 68%;
+    font-size: 20px;
+}
+
+.green-bg {
+    background-color: green;
+}
+
+.feedback-box {
+    font-family: "Press Start 2P", system-ui;
+    margin-top: 30px;
+    margin-left: 40%;
+    width: 50%;
+    padding: 10px;
+    font-size: 24px;
+    color: white; 
+    background-color: fuchsia; 
+    display: inline-block;
+    border-radius: 5px;
+    width: fit-content; /* Make the box fit the content */
+}
